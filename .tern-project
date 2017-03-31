@@ -1,0 +1,14 @@
+{
+  "libs": [ "browser", "ecma6" ],
+  "plugins": {
+    "node": {},
+    "complete_strings": {},
+    "es_modules": {}
+  }
+  "loadEagerly": [
+    "./src/"
+  ],
+  "dontLoad": [
+    "./node-modules"
+  ]
+}
